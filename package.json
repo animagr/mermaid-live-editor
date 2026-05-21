@@ -1,6 +1,6 @@
 {
   "name": "mermaid-live-editor",
-  "version": "2.0.67",
+  "version": "2.0.8",
   "type": "module",
   "license": "MIT",
   "scripts": {
