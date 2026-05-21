@@ -1,5 +1,29 @@
-[![Join our Discord!](https://img.shields.io/static/v1?message=join%20chat&color=9cf&logo=discord&label=discord)](https://discord.gg/sKeNQX4Wtj)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/27fa023d-7c73-4a3f-9791-b3b657a47100/deploy-status)](https://app.netlify.com/sites/mermaidjs/deploys)
+# Mermaid
+
+Mermaid is a JavaScript-based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams. The main purpose of Mermaid is to help documentation catch up with development.
+
+![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/animagr/mermaid-editor/main)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/animagr/mermaid-editor/main)
+
+## About
+
+<!-- <Main description>   -->
+
+> Doc-Rot is a Catch-22 that Mermaid helps to solve.
+
+Diagramming and documentation costs precious developer time and gets outdated quickly.
+But not having diagrams or docs ruins productivity and hurts organizational learning.<br/>
+Mermaid addresses this problem by enabling users to create easily modifiable diagrams. It can also be made part of production scripts (and other pieces of code).<br/>
+<br/>
+
+Mermaid allows even non-programmers to easily create detailed diagrams through the [Mermaid Live Editor](https://mermaid.live/).<br/>
+For video tutorials, visit our [Tutorials](https://mermaid.js.org/ecosystem/tutorials.html) page.
+Use Mermaid with your favorite applications, check out the list of [Integrations and Usages of Mermaid](https://mermaid.js.org/ecosystem/integrations-community.html).
+
+You can also use Mermaid within [GitHub](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/) as well many of your other favorite applications—check out the list of [Integrations and Usages of Mermaid](https://mermaid.js.org/ecosystem/integrations-community.html).
+
+For a more detailed introduction to Mermaid and some of its more basic uses, look to the [Beginner's Guide](https://mermaid.js.org/intro/getting-started.html), [Usage](https://mermaid.js.org/config/usage.html) and [Tutorials](https://mermaid.js.org/ecosystem/tutorials.html).
 
 # Mermaid Live Editor
 
@@ -12,13 +36,16 @@ Edit, preview and share mermaid charts/diagrams.
 - Get a link to a viewer of the diagram so that you can share it with others.
 - Get a link to edit the diagram so that someone else can tweak it and send a new link back
 
-## Live demo
+## Install setup
 
-You can try out a [live version](https://mermaid.live/).
+```cd \mermaid-live-editor
+Node.js
+npm install -g pnpm@10.30.3
+pnpm install
+pnpm dev -- --host localhost
 
-# Contributors are welcome!
-
-If you want to speed up the progress for mermaid-live-editor, join the Discord channel and contact knsv.
+Open http://localhost:3000. That's it — it uses the published mermaid package from npm out of the box.
+```
 
 ## Docker
 
