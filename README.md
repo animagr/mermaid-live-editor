@@ -1,12 +1,12 @@
 # Mermaid
 
-![Mermaid](favicon.png)
+![Mermaid](favicon.svg)
 
 Generate diagrams from markdown-like text.
 
 Mermaid is a JavaScript-based diagramming and charting tool that uses Markdown-inspired text definitions and a renderer to create and modify complex diagrams. The main purpose of Mermaid is to help documentation catch up with development.
 
-![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+![License](https://img.shields.io/badge/license-MIT-green.svg)]
 ![GitHub last commit](https://img.shields.io/github/last-commit/animagr/mermaid-editor/main)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/animagr/mermaid-editor/main)
 
